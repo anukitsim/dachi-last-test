@@ -21,7 +21,7 @@ const Sidebar = () => {
         <Link href='/PSR' className="text-[#484848] text-base leading-6 tracking-wide"> PSR</Link>
         <Link href='/Dead-vase' className="text-[#484848] text-base leading-6 tracking-wide">Dead Vase</Link>
         <Link href='/Broken-city' className="text-[#484848] text-base leading-6 tracking-wide">Broken City</Link>
-        <Link href='/Marcg32' className="text-[#484848] text-base leading-6 tracking-wide"> March32</Link>
+        <Link href='/March32' className="text-[#484848] text-base leading-6 tracking-wide"> March32</Link>
       </div>
     </aside>
   )
