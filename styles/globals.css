@@ -8,3 +8,8 @@ body {
   font-family: 'M PLUS 1', sans-serif;
 
 }
+
+.bg-my_bg_image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}

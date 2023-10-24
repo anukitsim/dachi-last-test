@@ -7,10 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        MPlus1: ["M PLUS 1", "sans-serif"],
+      },
       screens: {
         'sm': '300px', 
-        'md': '700px',
+        'md': '1200px',
+        
       },
+      backgroundImage: {
+        'my_bg_image': "url('/images/march32.png')",
+      }
     },
   },
   plugins: [],
