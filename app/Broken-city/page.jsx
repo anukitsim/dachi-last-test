@@ -17,30 +17,33 @@ const Broken = () => {
         </p>
         <br />
         <Image
-          src="/images/brokenCity1.jpg"
+          src="/images/brokenCity1.webp"
           alt="broken1"
           width={700}
           height={475}
           sizes="(min-width: 1200px) calc(78.22vw - 97px), 100vw"
           className="w-full"
+          priority
         />
         <br />
         <div className="w-full flex flex-row">
         <Image
-        src='/images/brokenCity2.png'
+        src='/images/brokenCity2.webp'
         alt="broken2"
         width={700}
         height={475}
         className='w-6/12 mt-5'
         sizes="(min-width: 1200px) calc(78.22vw - 97px), 100vw"
+        priority
          />
          <Image 
-        src='/images/brokenCity3.png'
+        src='/images/brokenCity3.webp'
         alt="broken3"
         width={700}
         height={475}
         className='w-6/12 h-5/6'
         sizes="(min-width: 1200px) calc(78.22vw - 97px), 100vw"
+        loading="lazy"
         />
 
         </div>
@@ -67,12 +70,13 @@ const Broken = () => {
 
         </p>
         <Image
-        src='/images/brokenCity4.png'
+        src='/images/brokenCity4.webp'
         alt="broken4"
         width={700}
         height={475}
         className='w-full transform translate-y-[-2rem]'
         sizes="(min-width: 1200px) calc(78.22vw - 97px), 100vw"
+        loading="lazy"
          />
       </div>
   )

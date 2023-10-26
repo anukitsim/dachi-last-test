@@ -13,6 +13,7 @@ const March32 = () => {
             height={600}
             sizes="100vw"
             className="h-full w-full object-cover z-0"
+            priority
           />
         </div>
       </div>

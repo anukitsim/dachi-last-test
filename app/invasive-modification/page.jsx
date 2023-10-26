@@ -7,15 +7,15 @@ const Invasive = () => {
   const [imageIndex, setImageIndex] = useState(0);
 
   const imageFiles = [
-    "card1.jpg",
-    "card2.jpg",
-    "card3.jpg",
-    "card4.jpg",
-    "card5.jpg",
-    "card6.jpg",
-    "card7.jpg",
-    "card8.jpg",
-    "card9.jpg",
+    "card1.webp",
+    "card2.webp",
+    "card3.webp",
+    "card4.webp",
+    "card5.webp",
+    "card6.webp",
+    "card7.webp",
+    "card8.webp",
+    "card9.webp",
   ];
 
   const nextImage = () => {
@@ -32,12 +32,13 @@ const Invasive = () => {
         Set Design for the Georgian footwear brand Invasive Modifications
       </h2>
       <Image
-        src="/images/1.jpg"
+        src="/images/1.webp"
         alt="invasive-1"
         width={500}
         height={500}
         sizes="(min-width: 1740px) 41.67vw, (min-width: 700px) calc(51.67vw - 172px), 55.53vw"
         className="md:w-8/12 sm:w-full h-auto z-0 md:col-start-1 md:row-start-1 md:row-span-2 md:col-span-10"
+        priority
       />
       <h2 className="text-[#484848] font-MPlus1 z-10 text-lg md:col-start-7 md:col-span-6 md:row-start-1 md:self-center sm:mb-5">
       Translating language at the core of brands world through artefacts
@@ -52,6 +53,7 @@ const Invasive = () => {
         sizes="(min-width: 2980px) 700px, (min-width: 1740px) calc(21.72vw + 57px), (min-width: 700px) calc(30.98vw - 103px), 33.42vw"
         className="z-10 col-start-1 col-span-4 row-start-2 md:self-end sm:self-start"
         onClick={nextImage}
+        priority
       />
       <div className="flex col-start-1 col-span-2 mt-5 mb-5 row-start-3 self-end sm:self-start justify-start items-center gap-2 z-50">
         {imageFiles.map((_, index) => (
