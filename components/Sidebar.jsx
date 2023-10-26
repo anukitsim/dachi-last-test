@@ -27,7 +27,7 @@ const Sidebar = () => {
           Dachi-Giorgi Garuchava
         </Link>
         <button className="lg:hidden text-[#484848]" onClick={toggleMenu}>Menu</button>
-        <Link href='/' className={`text-base text-[#909090] tracking-wide ${menuOpen ? "" : "hidden lg:inline-block"}`}>about</Link>
+        <Link href='/about' className={`text-base text-[#909090] tracking-wide ${menuOpen ? "" : "hidden lg:inline-block"}`}>about</Link>
       </div>
      
       <div className="flex w-[170.226px] flex-col justify-center items-end">
