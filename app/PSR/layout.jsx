@@ -3,7 +3,7 @@ import Sidebar from '@components/Sidebar'
 
 export const metadata = {
   title: 'Dachi-Giorgi Garuchava',
-}kwk
+}
 
 export default function RootLayout({ children }) {
   return (
