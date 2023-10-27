@@ -33,7 +33,7 @@ const Broken = () => {
         width={700}
         height={475}
         className='w-6/12 mt-5'
-        sizes="(min-width: 1200px) calc(78.22vw - 97px), 100vw"
+        sizes="(min-width: 1200px) calc(39.11vw - 58px), calc(50vw - 10px)"
         priority
          />
          <Image 
@@ -42,7 +42,7 @@ const Broken = () => {
         width={700}
         height={475}
         className='w-6/12 h-5/6'
-        sizes="(min-width: 1200px) calc(78.22vw - 97px), 100vw"
+        sizes="(min-width: 1200px) calc(39.11vw - 58px), calc(50vw - 10px)"
         loading="lazy"
         />
 

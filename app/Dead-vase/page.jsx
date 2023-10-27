@@ -10,7 +10,7 @@ const DeadVase = () => {
           width={700}
           height={475}
           className="w-full"
-          sizes="(min-width: 1200px) calc(39.11vw - 78px), calc(50vw - 30px)"
+          sizes="(min-width: 1200px) calc(39.11vw - 78px), calc(100vw - 20px)"
           priority
         />
          <p className="text-[#484848] md:w-8/12 sm:w-full font-MPlus1 font-wide font-thin tracking-normal text-base leading-6 mt-10 mb-10">
@@ -24,7 +24,7 @@ const DeadVase = () => {
           width={700}
           height={475}
           className="w-full"
-          sizes="(min-width: 1200px) calc(39.11vw - 78px), calc(50vw - 30px)"
+          sizes="(min-width: 1200px) calc(39.11vw - 78px), calc(100vw - 20px)"
           priority
         />
      </div>
@@ -38,7 +38,7 @@ const DeadVase = () => {
           width={700}
           height={475}
           className="w-full mt-5"
-          sizes="(min-width: 1200px) calc(39.11vw - 78px), calc(50vw - 30px)"
+          sizes="(min-width: 1200px) calc(39.11vw - 78px), calc(100vw - 20px)"
           priority
         />
      

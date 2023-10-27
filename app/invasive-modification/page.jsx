@@ -36,7 +36,7 @@ const Invasive = () => {
         alt="invasive-1"
         width={500}
         height={500}
-        sizes="(min-width: 1740px) 41.67vw, (min-width: 700px) calc(51.67vw - 172px), 55.53vw"
+        sizes="(min-width: 1200px) calc(43.44vw - 75px), calc(100vw - 40px)"
         className="md:w-8/12 sm:w-full h-auto z-0 md:col-start-1 md:row-start-1 md:row-span-2 md:col-span-10"
         priority
       />
@@ -50,7 +50,7 @@ const Invasive = () => {
         src={`/images/${imageFiles[imageIndex]}`}
         width={700}
         height={600}
-        sizes="(min-width: 2980px) 700px, (min-width: 1740px) calc(21.72vw + 57px), (min-width: 700px) calc(30.98vw - 103px), 33.42vw"
+        sizes="(min-width: 2860px) 700px, (min-width: 1200px) calc(26.22vw - 48px), (min-width: 780px) 700px, calc(95.65vw - 27px)" 
         className="z-10 col-start-1 col-span-4 row-start-2 md:self-end sm:self-start"
         onClick={nextImage}
         priority
