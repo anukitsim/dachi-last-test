@@ -1,8 +1,8 @@
 import Image from "next/image"
 
 const Broken = () => {
-  return (
-    <div className="flex  flex-col  transform translate-x-0.5 translate-y-36 mt-1 mr-5">
+  return ( <div className="flex  flex-col  transform translate-x-0.5 translate-y-36 mt-1 mr-5">
+   
         <h2 className="text-[#484848] font-MPlus1 font-wide font-thin tracking-normal text-lg leading-6">
           Knife In The Back
         </h2>

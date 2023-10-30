@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
+
 const Invasive = () => {
   const [imageIndex, setImageIndex] = useState(0);
 
@@ -44,6 +45,7 @@ const Invasive = () => {
       Translating language at the core of brands world through artefacts
         within the current realm
       </h2>
+      
 
       <Image
         alt={`card ${imageIndex + 1}`}

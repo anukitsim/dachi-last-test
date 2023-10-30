@@ -55,14 +55,14 @@ const Garbage = () => {
       width={400} 
       height={400} 
       sizes="(min-width: 2320px) 400px, (min-width: 1200px) calc(18.27vw - 20px), (min-width: 560px) 400px, calc(79.17vw - 28px)"
-      priority
+      loading="lazy"
       />
       <Image 
       src='/gif/garbage-gif4.gif'  
       width={400} 
       height={400} 
       sizes="(min-width: 1500px) 400px, (min-width: 1200px) calc(10.71vw + 241px), (min-width: 560px) 400px, calc(79.17vw - 28px)"
-      priority
+      loading="lazy"
 
       />
         
