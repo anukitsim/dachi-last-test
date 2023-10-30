@@ -1,5 +1,4 @@
-import Video from 'next-video'
-import witnessVideo from '/videos/witness.mp4'
+
 
 
 const Witness = () => {
@@ -22,7 +21,7 @@ const Witness = () => {
         and radical change. It is a space of power and contradiction, with a
         magic sparked by the many forms of cultural and political cohesion.
       </p>
-      <Video  src={witnessVideo} />
+  
     
    </div>
   );
