@@ -11,6 +11,7 @@ const French = () => {
           sizes="(min-width: 1200px) calc(78.22vw - 97px), 100vw"
           className="w-full"
           priority
+          rel="preload"
           
         />
     </div>

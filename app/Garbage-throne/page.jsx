@@ -38,6 +38,7 @@ const Garbage = () => {
       height={400} 
       sizes="(min-width: 2240px) 400px, (min-width: 1200px) calc(19.71vw - 37px), (min-width: 560px) 400px, calc(79.17vw - 28px)"
       priority
+      rel="preload"
       />
       <Image 
       src='/gif/garbage-gif2.gif'  
@@ -45,6 +46,7 @@ const Garbage = () => {
       height={400} 
       sizes="(min-width: 2240px) 400px, (min-width: 1200px) calc(19.71vw - 37px), (min-width: 560px) 400px, calc(79.17vw - 28px)" i
       priority
+      rel="preload"
 
       />
       </div>
@@ -55,14 +57,14 @@ const Garbage = () => {
       width={400} 
       height={400} 
       sizes="(min-width: 2320px) 400px, (min-width: 1200px) calc(18.27vw - 20px), (min-width: 560px) 400px, calc(79.17vw - 28px)"
-      loading="lazy"
+      rel="preload"
       />
       <Image 
       src='/gif/garbage-gif4.gif'  
       width={400} 
       height={400} 
       sizes="(min-width: 1500px) 400px, (min-width: 1200px) calc(10.71vw + 241px), (min-width: 560px) 400px, calc(79.17vw - 28px)"
-      loading="lazy"
+      rel="preload"
 
       />
         
