@@ -21,7 +21,24 @@ const Witness = () => {
         and radical change. It is a space of power and contradiction, with a
         magic sparked by the many forms of cultural and political cohesion.
       </p>
-  
+      <iframe
+            src="https://player.vimeo.com/video/804685785?h=53a3b36cd6&title=0&byline=0&portrait=0"
+            className="aspect-video w-full h-full"
+            frameBorder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+         <div className="w-full flex flex-row justify-between mb-5">
+         <p className="text-xs text-left font-MPlus1 text-[#484848] font-normal">
+            Le Témoin / The Witness
+          </p>
+          <p className="text-xs font-MPlus1 text-[#484848] font-normal">
+            © Mykki Blanco et Dachi-Giorgi Garuchava
+          </p>
+         </div>
+         
+        
+         
     
    </div>
   );
