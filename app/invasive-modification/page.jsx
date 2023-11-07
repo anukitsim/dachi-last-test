@@ -41,26 +41,24 @@ const Invasive = () => {
         className="md:w-8/12 sm:w-full h-auto z-0 md:col-start-1 md:row-start-1 md:row-span-2 md:col-span-10"
         priority
       />
-      <h2 className="text-[#484848] font-MPlus1 z-10 text-lg md:col-start-6 md:col-span-6 md:row-start-1 md:self-center sm:mb-5">
+      <h2 className="text-[#484848] font-MPlus1 z-10 text-lg md:col-start-6 ml-10 md:col-span-6 md:row-start-2 md:self-start sm:mb-5">
       Translating language at the core of brands world through artefacts
         within the current realm
       </h2>
-  <div className="pb-[56.25%] realtive md:col-start-6 md:col-span-7 md:row-start-1 z-50">
-  <iframe
+      <div className="col-start-6 col-span-5 row-start-1 z-50 self-end">
+      <iframe
+          width={540}
+          height={360}
           frameBorder="0"
           allow="autoplay;"
           allowFullScreen
           src="https://player.vimeo.com/video/818864881?h=c04dfe0258&autoplay=1&title=0&byline=0&portrait=0&background=1&loop=1"
           frameborder="0"
-          width={540}
-          height={360}
+        
         ></iframe>
-  </div>
-     
 
-
-     
-
+      </div>
+      
       <Image
         alt={`card ${imageIndex + 1}`}
         src={`/images/${imageFiles[imageIndex]}`}
