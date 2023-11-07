@@ -54,7 +54,6 @@ const Invasive = () => {
           allowFullScreen
           src="https://player.vimeo.com/video/818864881?h=c04dfe0258&autoplay=1&title=0&byline=0&portrait=0&background=1&loop=1"
           frameborder="0"
-        
         ></iframe>
 
       </div>
@@ -68,6 +67,7 @@ const Invasive = () => {
         className="z-10 col-start-1 col-span-4 row-start-2 md:self-end sm:self-start"
         onClick={nextImage}
         priority
+        rel="preload"
       />
       <div className="flex col-start-1 col-span-2 mt-5 mb-5 row-start-3 self-end sm:self-start justify-start items-center gap-2 z-50">
         {imageFiles.map((_, index) => (
