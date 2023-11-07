@@ -33,7 +33,7 @@ const Garbage = () => {
       </span>
       <div className="flex md:flex-row sm:flex-col">
       <Image 
-      src='/gif/garbage-gif1-optimized.gif'  
+      src='/gif/garbage-gif1.gif'  
       width={400} 
       height={400} 
       sizes="(min-width: 2240px) 400px, (min-width: 1200px) calc(19.71vw - 37px), (min-width: 560px) 400px, calc(79.17vw - 28px)"
@@ -41,7 +41,7 @@ const Garbage = () => {
       rel="preload"
       />
       <Image 
-      src='/gif/garbage-gif2-optimized.gif'  
+      src='/gif/garbage-gif2.gif'  
       width={400} 
       height={400} 
       sizes="(min-width: 2240px) 400px, (min-width: 1200px) calc(19.71vw - 37px), (min-width: 560px) 400px, calc(79.17vw - 28px)" i
@@ -53,7 +53,7 @@ const Garbage = () => {
 
       <div className="flex md:flex-row sm:flex-col">
       <Image 
-      src='/gif/garbage-gif3-optimized.gif'  
+      src='/gif/garbage-gif3.gif'  
       width={400} 
       height={400} 
       priority
@@ -61,7 +61,7 @@ const Garbage = () => {
       rel="preload"
       />
       <Image 
-      src='/gif/garbage-gif4-optimized.gif'  
+      src='/gif/garbage-gif4.gif'  
       width={400} 
       height={400} 
       sizes="(min-width: 1500px) 400px, (min-width: 1200px) calc(10.71vw + 241px), (min-width: 560px) 400px, calc(79.17vw - 28px)"

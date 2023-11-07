@@ -7,7 +7,7 @@ const French = () => {
     >
       <Image
         alt="french-lessons"
-        src="/images/french-optimized.webp"
+        src="/images/french.webp"
         width={700}
         height={475}
         sizes="(min-width: 1200px) calc(78.22vw - 97px), 100vw"
