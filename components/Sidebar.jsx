@@ -35,8 +35,6 @@ const Sidebar = () => {
         <Link rel="preload"  href='/invasive-modification' className={`text-[#484848] text-base leading-6 tracking-wide  ${menuOpen ? "" : "hidden lg:inline-block"} ${isActive("/invasive-modification")}`}> Invasive Modification</Link>
         <Link rel="preload"  href='/STEPS' className={`text-[#484848] text-base leading-6 tracking-wide  ${menuOpen ? "" : "hidden lg:inline-block"} ${isActive("/STEPS")}`}> STEPS</Link>
         <Link rel="preload"  href='/Hyphen' className={`text-[#484848] text-base leading-6 tracking-wide  ${menuOpen ? "" : "hidden lg:inline-block"} ${isActive("/Hyphen")}`}> Hyphen</Link>
-        <Link rel="preload"  href='/I-need-protection' className={`text-[#484848] text-base leading-6 tracking-wide  ${menuOpen ? "" : "hidden lg:inline-block"} ${isActive("/I-need-protection")}`}> I Need Protection</Link>
-        <Link rel="preload"  href='/.OBJ' className={`text-[#484848] text-base leading-6 tracking-wide  ${menuOpen ? "" : "hidden lg:inline-block"} ${isActive("/.OBJ")}`}> .OBJ</Link>
         <Link rel="preload"  href='/French-lessons' className={`text-[#484848] text-base leading-6 tracking-wide  ${menuOpen ? "" : "hidden lg:inline-block"} ${isActive("/French-lessons")}`}>French Lessons</Link>
         <Link rel="preload"  href='/Garbage-throne' className={`text-[#484848] text-base leading-6 tracking-wide  ${menuOpen ? "" : "hidden lg:inline-block"} ${isActive("/Garbage-throne")}`}>Garbage Throne</Link>
         <Link rel="preload"  href='/PSR' className={`text-[#484848] text-base leading-6 tracking-wide  ${menuOpen ? "" : "hidden lg:inline-block"} ${isActive("/PSR")}`}> PSR</Link>
